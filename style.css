@@ -1,0 +1,104 @@
+/* Reset the CSS */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("background1.jpg");
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.left{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.left img{
+    width: 55px;
+    display: block;
+    margin: auto;
+    /* filter: invert(100%); */
+}
+.left div{
+    font-size: 11px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.6);
+    /* border: 2px solid green; */
+}
+.right{
+    position: absolute;
+    top: 25px;
+    right: 34px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 7px;
+}
+.navbar li a:hover,li a.active{
+    text-decoration: underline;
+    color:gold;
+}
+.btn{
+    margin: 0px 9px;
+    padding: 4px 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    /* border: 2px solid white; */
+    margin: 40px 50px;
+    padding: 38px;
+    width: 45%;
+    border-radius: 21px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.container h1{
+    margin: 50px 20px;
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 9px;
+    border: 2px solid black;
+    margin: 7px auto;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container button{
+    display: block;
+    width: 25%;
+    margin: 10px auto;
+}
